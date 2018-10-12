@@ -1,0 +1,80 @@
+.artikujt
+{
+    margin-bottom: 2em;
+}
+.item
+{
+    border: 1px solid #bebdbd;
+    border-style: solid;
+    width: 24.3%;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;    
+    border-radius: 10px;
+}
+.item .foto
+{
+    padding: 20px 0px 10px 0px;
+	max-height: 100%;
+}
+.item .pershkrimi
+{
+    font-size: 1.2em;
+    background-image: url("images/pershkback.jpg");
+	width: 99.5%;
+    margin: auto;
+    
+    border-radius: 0px 0px 10px 10px;
+}
+.item .pershkrimi .cmimi
+{
+    background-image: url("images/backg2.png");
+    color: white;   
+    font-size: 1.5em;
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 0px 0px 10px 10px;
+}
+.artikujt .item
+{
+    background-color: white;
+}
+.artikujt .label
+{
+    background-image: url("images/backg.jpg");
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+}
+.teksti
+{   
+    margin-top: 20px;
+    font-size: 1.7em;
+    font-style: italic;
+}
+#orderedTable, #orderedTable td, #orderedTable tr, #orderedTable th
+{
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1.2em;
+}
+#orderedTable th
+{
+    padding: 10px;
+    background-image: url("images/pershkback.jpg")
+}
+#butoniPerOrder
+{
+    font-size: 1.2em;
+    padding: 2px 10px;
+    background-color: coral;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#butoniPerOrder:hover
+{
+    background-color: rgb(224, 110, 68);
+    cursor: pointer;
+}

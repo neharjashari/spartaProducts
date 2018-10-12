@@ -1,0 +1,491 @@
+body
+{
+    margin: 0px;
+    background-color: rgb(245, 245, 245);
+    background-image: url("images/backgroundImagee.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#container 
+{
+	margin-bottom: 0px;
+}
+nav
+{
+    margin-top: 0px;
+    background-color: rgb(245, 245, 245);
+    background-image: url("images/backgroundImagee.png");
+    background-attachment: fixed;
+    border-bottom: 2px solid coral;
+}
+#banner 
+{
+    width: 100%;
+	margin-top: 40px;	
+}
+#banner img {
+	max-height: 600px;	
+}
+nav li
+{
+    display: inline-block;
+    list-style: none;
+	padding: 3px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.3em;
+    height: 30px;
+    transition: font-size 0.5s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav li:hover
+{
+    font-weight: 700;
+    font-size: 1.4em;
+	cursor: pointer;
+}
+header nav
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav li a
+{
+    text-decoration: none;
+    color: black;
+}
+main
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+article
+{
+    border-radius: 10px;
+    width: 75%;
+    float: left;
+    background-color: rgba(0,0,0, 0.05);
+    margin-right: 2%;
+    margin-bottom: 80px;
+}
+.artikujt
+{
+    padding: 20px;
+}
+main aside div
+{
+    padding: 10px;
+}
+aside
+{
+    border-radius: 10px;
+    width: 23%;
+    float: right;
+    background-color: RGBA(0,0,0,0.05);
+    margin-bottom: 80px;
+}
+table, tr , td
+{
+    text-align: center;
+}
+table
+{
+    width: 100%;
+}
+table img
+{
+    padding: 20px;
+}
+footer {
+	clear: both;	
+	background: url("subpatterns/footer_lodyas/footer_lodyas.png") repeat fixed center;	
+	color: #C3C3C3;
+  	padding: 0.1rem;
+}
+
+footer div 
+{
+	margin: auto;
+    bottom: 0;
+    width: 100%;
+}
+
+#social 
+{
+	width: 50%;
+	float: left;
+}
+
+#contact 
+{
+	width: 40%;
+	float: right;
+	margin-left: 10%;
+	margin-bottom: 40px;	
+}
+	
+#footer 
+{
+	width: 80%;
+	padding: 50px;
+	padding-top: 10px;	
+	margin-bottom: 40px;	
+}
+	
+#copyright
+{
+	clear: both; 
+    width: 100%;
+	text-align: center;
+}
+
+#social a img 
+{
+	margin-right: 5px;	
+}
+
+nav img 
+{
+	margin-right: 50px;	
+}
+.active 
+{
+    font-weight: 900;
+    color: coral;
+}
+.produkti
+{
+    padding: 20px 0px 20px 0px;
+	font-size: 1.5em;
+}
+.produkti table
+{
+    background-color: white;
+}
+.produkti table,.produkti tr,.produkti th,.produkti td
+{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+}
+.tek
+{
+    background-color: white;
+}
+.cift
+{
+    background-color: #eeecec;
+}
+#emriproduktit
+{
+    background-image: url("images/backg.jpg");
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+}
+.orderitem
+{
+    width: 100%;
+    text-align: center;
+}
+.orderitem button
+{
+    width: 70%;
+    font-size: 2em;
+    font-weight: bold;
+}
+.orderitem button:hover
+{
+    cursor: pointer;
+}
+.forma legend
+{
+    font-size: 2em;
+    text-shadow: 1px 1px coral;
+}
+.forma
+{
+    font-size: 1.2em;
+}
+.forma fieldset
+{
+    background-image: url("images/pershkback.jpg");
+    border-radius: 5px;
+}
+.forma label
+{
+    font-weight: bold;
+}
+.forma input[type=submit], .forma input[type=reset]
+{
+    font-size: 1.1em;
+    padding: 8px;
+    /*background-color: coral;*/
+    background: linear-gradient(to bottom right, coral,rgb(177, 89, 57));
+    border: none;   
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.forma input[type=submit]:hover, .forma input[type=reset]:hover
+{
+    background-color: rgb(233, 116, 74);
+    cursor: pointer;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.forma input[type=text], .forma input[type=password], .forma input[type=email], .forma textarea, .forma input[type=date], .forma select
+{
+    border-radius: 5px;
+	float: right;
+	padding-right: 40px;
+}
+form 
+{
+  width: 100%;
+  /*background-color: #fff;
+  border: 1px solid #ccc;*/
+  line-height: 1.42857143;
+}	
+
+form:focus 
+{
+  border-color: #66afe9;
+  outline: 0;
+}
+
+form input 
+{
+  line-height: 1.6;
+}
+#FAQ h1
+{
+    font-size: 1.9em;
+}
+#FAQ p
+{
+    text-indent: 50px;
+    font-size: 1.1em;
+}
+#FAQ #ul1
+{
+    list-style-type: circle;
+}
+#FAQ #ul2
+{
+    list-style-type: square;
+}
+#FAQ #ul3
+{
+    list-style-type: disc;
+}
+#FAQ table, #FAQ tr, #FAQ td, #FAQ th
+{
+    border: 1px solid black;
+}
+#mailtoid
+{
+    color: darkslateblue;
+    font-style: italic;
+    font-weight: bold;
+}
+#reviews dl dt
+{
+	margin-top: 50px;
+	font-size: 1.2em;
+}
+#reviews dl dd
+{
+	padding: 10px;
+	margin-left: 150px;
+	font-style:italic;
+}
+#prodlist ol
+{
+    font-weight: bold;
+}
+#prodlist ol ol 
+{
+    font-weight: normal;
+}
+#discounts table,#discounts tr,#discounts th,#discounts td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 7px;
+}
+#discounts caption
+{
+    font-size: 1.2em;
+    padding: 3px;
+}
+#discounts .gold
+{
+    background-color: RGB(255,223,0);
+}
+#discounts .silver
+{
+    background-color: RGB(192,192,192)
+}
+#discounts .bronze
+{
+    background-color: #cd7f32;
+}
+#discounts table
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@font-face
+{
+    font-family: GreatVibes;
+    src: url("extra/font/GreatVibes.ttf");
+}
+#orderthisitem
+{
+    box-shadow: 3px 3px rgba(100, 49, 30, 0.637);
+}
+#transforms
+{
+    text-align: center;
+    transform: rotate(20deg);
+}
+nav
+{
+    z-index: 1;
+}
+#ourcompany
+{
+    font-size: 1.4em;
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 1px solid #838383;
+}
+#datet
+{
+    background-color: coral;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#datet:hover
+{
+    background-color: rgb(216, 108, 69);
+}
+
+#game
+{
+    background-image: url("images/game.png");
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+#luckbutoni
+{
+    position: relative;
+    top: 40%;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: rgb(255,187,0);
+    border: none;
+    cursor: pointer;
+    color: rgb(192, 141, 0);
+    text-shadow: 1px 1px black;
+}
+#luckbutoni:hover
+{
+    background-color: rgb(206, 151, 0);
+}
+.butonatloje
+{
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 5px;
+}
+#butoniloja1
+{
+    background-color: yellow;
+}
+#butoniloja2
+{
+    background-color: blue;
+    color: white;
+}
+#butoniloja3
+{
+    background-color: red; 
+}
+#butoniloja4
+{
+    background-color: green;
+}
+#butoniloja1:hover
+{
+    background-color: rgb(255, 208, 0);
+}
+#butoniloja2:hover
+{
+    background-color: rgb(0, 0, 134);
+}
+#butoniloja3:hover
+{
+    background-color: rgb(197, 0, 0); 
+}
+#butoniloja4:hover
+{
+    background-color: rgb(18, 65, 18);
+}
+#keyfrdiv1, #keyfrdiv2, #keyfrdiv3
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border-radius: 30px;
+    animation: moveHor 6s 2;
+}
+@keyframes moveHor
+{
+    0% {left: 0px; background-color: coral}
+    33% {left: -200px; background-color: white}
+    66% {left: 200px; background-color: black}
+    100% {left: 0px; background-color: coral}
+}
+#jQanimate
+{
+    position: relative;
+}
+#readyOrder
+{
+    font-size: 1.6em;
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+#shoppingcartLogo
+{
+    position: fixed;
+    z-index: 0;
+    top: 15%;
+    left: 93%;
+    animation: shopmove 8s infinite;
+}
+@keyframes shopmove
+{
+    0% {top: 15%;}
+    11% {top: 15%;}
+    22% {top: 15%;}
+    33% {top: 15%;}
+    44% {top: 15%;}
+    50% {top: 17%;}
+    55% {top: 15%;}
+    61% {top: 17%;}
+    66% {top: 15%;}
+    77% {top: 15%;}
+    88% {top: 15%;}
+    99% {top: 15%;}
+}
